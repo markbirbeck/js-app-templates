@@ -10,5 +10,8 @@
     "node": "6.x"
   },
   "author": "Mark Birbeck <mark.birbeck@gmail.com> (http://markbirbeck.com/)",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^3.11.1"
+  }
 }
