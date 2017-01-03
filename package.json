@@ -1,10 +1,17 @@
 {
+  "name": "js-app-templates",
+  "version": "0.1.0",
+  "description": "A collection of templates for my JavaScript apps.",
+  "main": "index.js",
   "private": true,
   "devDependencies": {
+    "bower": "^1.8.0",
     "browser-sync": "^2.7.7",
     "connect-history-api-fallback": "^1.1.0",
     "del": "^2.0.2",
     "es6-promise": "^3.1.2",
+    "eslint": "^3.11.1",
+    "eslint-config-google": "^0.7.1",
     "glob-all": "^3.0.1",
     "gulp": "^3.8.5",
     "gulp-autoprefixer": "^3.1.0",
@@ -30,10 +37,14 @@
     "web-component-tester": "^4.0.0"
   },
   "scripts": {
+    "lint": "eslint .",
+    "preversion": "npm run lint",
     "test": "gulp test:local",
     "start": "gulp serve"
   },
   "engines": {
-    "node": ">=0.10.0"
-  }
+    "node": "6.x"
+  },
+  "author": "Mark Birbeck <mark.birbeck@gmail.com> (http://markbirbeck.com/)",
+  "license": "MIT"
 }
