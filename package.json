@@ -2,6 +2,11 @@
   "name": "js-app-templates",
   "version": "0.1.0",
   "description": "A collection of templates for my JavaScript apps.",
+  "keywords": [
+    "gulp",
+    "gulpfriendly",
+    "gulpplugin"
+  ],
   "main": "index.js",
   "scripts": {
     "lint": "eslint .",
