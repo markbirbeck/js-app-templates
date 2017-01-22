@@ -1,7 +1,7 @@
 {
-  "name": "js-app-templates",
+  "name": "task-registry-mytask",
   "version": "0.1.0",
-  "description": "A collection of templates for my JavaScript apps.",
+  "description": "A task registry for the MyTask collection of tasks.",
   "keywords": [
     "custom registry",
     "gulp",
