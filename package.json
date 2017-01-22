@@ -3,9 +3,13 @@
   "version": "0.1.0",
   "description": "A collection of templates for my JavaScript apps.",
   "keywords": [
+    "custom registry",
     "gulp",
     "gulpfriendly",
-    "gulpplugin"
+    "gulpplugin",
+    "task registry",
+    "tasks",
+    "undertaker"
   ],
   "main": "index.js",
   "scripts": {
